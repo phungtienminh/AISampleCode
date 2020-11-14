@@ -23,7 +23,7 @@ means = train.mean()
 train = train.fillna(means)
 
 maxes = train.max()
-train /= maxes
+train /= maxes 
 
 cols = train.columns[2:]
 data = train[cols]
